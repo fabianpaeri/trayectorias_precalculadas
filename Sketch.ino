@@ -22,7 +22,7 @@ const int PERIODO = 100;
 
 int iterador = 0;
 unsigned long tiempo_transcurrido = 0; 
-const static int PUNTOS = sizeof(trayectorias[0])/sizeof(trayectorias[0][0]);
+const static int PUNTOS = 51;
 
 Servo cabeza, cola, brazoIzquierdo, brazoDerecho, antebrazoIzquierdo; 
 
